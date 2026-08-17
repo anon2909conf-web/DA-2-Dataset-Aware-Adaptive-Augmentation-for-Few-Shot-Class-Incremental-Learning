@@ -154,8 +154,8 @@ Performance comparison on **CIFAR-100**. **Average Acc.** is the mean accuracy a
 
 | Dataset          |     DA² Gain over Previous Best     |
 | :---------------- | :-----------------------------------: |
-| 🖼️ **CIFAR-100**    | ![+8.09%](https://img.shields.io/badge/-%2B8.09%25-3CB371?style=flat-square) |
-| 🌄 **miniImageNet** | ![+6.10%](https://img.shields.io/badge/-%2B6.10%25-3CB371?style=flat-square) |
+| 🖼️ **CIFAR-100**    | ![+5.58%](https://img.shields.io/badge/-%2B8.09%25-3CB371?style=flat-square) |
+| 🌄 **miniImageNet** | ![+8.09%](https://img.shields.io/badge/-%2B6.10%25-3CB371?style=flat-square) |
 
 </div>
 
@@ -556,7 +556,7 @@ python train.py \
 ## 📁 Repository Structure
 
 ```text
-DA-2/
+DA-2-Dataset-Aware-Adaptive-Augmentation-for-Few-Shot-Class-Incremental-Learning/
 ├── 📄 attributes.txt              Class attribute metadata (fine-grained branch)
 ├── 📁 augmentations/               Spatial + spectral augmentation modules
 ├── 📁 dataloader/                   Dataset loaders for all benchmarks
