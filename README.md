@@ -264,7 +264,7 @@ mv imagelabels.mat dataset/flowers102_raw/
 
 <br/>
 
-### 🧬 Mixed-domain and coarse-grained benchmarks
+### 🧬 Mixed-domain and others benchmarks
 
 In addition to the three standard benchmarks, we introduce four datasets that test DA²'s dataset-awareness under domain mixing and at a coarser granularity:
 
