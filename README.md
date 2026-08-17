@@ -92,7 +92,7 @@ This allows DA² to automatically select an augmentation strategy **without any 
 The complete learning workflow is illustrated below.
 
 <p align="center">
-  <img src="imgs/bb_nn (2).png" width="95%" alt="DA² Architecture">
+  <img src="bb_nn (2).png" width="95%" alt="DA² Architecture">
 </p>
 
 <br/>
