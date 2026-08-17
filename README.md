@@ -158,10 +158,6 @@ Performance comparison on **CIFAR-100**. **Average Acc.** is the mean accuracy a
 | 🌄 **miniImageNet** | ![+8.09%](https://img.shields.io/badge/-%2B6.10%25-3CB371?style=flat-square) |
 
 </div>
-
-> [!NOTE]
-> Results on additional datasets, including **CUB-200**, will be released alongside the paper and code update.
-
 <br/>
 
 ---
