@@ -13,7 +13,7 @@
 
 <br/><br/>
 
-**⭐ +8.09% on miniImageNet· +5.58% on CIFAR-100 ⭐**
+**⭐ +5.58% on CIFAR-100 · +8.09% on miniImageNet ⭐**
 <br/>
 *over the previous best-performing methods*
 
@@ -56,7 +56,7 @@ For **coarse-grained datasets**, where class prototypes are densely clustered, D
 
 This mechanism requires no manual dataset annotation and introduces negligible computational overhead. DA² strengthens and diversifies base-class feature distributions before incremental learning, improving the accommodation of novel classes. Complementary transformations across multiple representation domains generate proxy features that increase intra-class diversity while preserving the underlying discriminative structure.
 
-Experiments on **miniImageNet** and **CIFAR-100** demonstrate strong improvements over existing approaches, achieving average accuracy gains of **+8.09%** and **+5.58%**, respectively, over the previous best-performing methods.
+Experiments on **CIFAR-100** and **miniImageNet** demonstrate strong improvements over existing approaches, achieving average accuracy gains of **+5.58%** and **+8.09%**, respectively, over the previous best-performing methods.
 
 </details>
 
@@ -158,6 +158,10 @@ Performance comparison on **CIFAR-100**. **Average Acc.** is the mean accuracy a
 | 🌄 **miniImageNet** | ![+8.09%](https://img.shields.io/badge/-%2B6.10%25-3CB371?style=flat-square) |
 
 </div>
+
+> [!NOTE]
+> Results on additional datasets, including **CUB-200**, will be released alongside the paper and code update.
+
 <br/>
 
 ---
@@ -260,7 +264,7 @@ mv imagelabels.mat dataset/flowers102_raw/
 
 <br/>
 
-### 🧬 Mixed-domain and other benchmarks
+### 🧬 Mixed-domain and coarse-grained benchmarks
 
 In addition to the three standard benchmarks, we introduce four datasets that test DA²'s dataset-awareness under domain mixing and at a coarser granularity:
 
@@ -366,7 +370,7 @@ python train.py \
 
 ```bash
 python train.py \
-    -project facl \
+    -project DA \
     -dataset cub200 \
     -gamma 0.1 \
     -lr_base 0.002 \
@@ -578,7 +582,6 @@ DA-2-Dataset-Aware-Adaptive-Augmentation-for-Few-Shot-Class-Incremental-Learning
 ## ♻️ Reproducibility
 
 All experiments are conducted using the same FSCIL protocol and training configuration across datasets. Dataset-specific augmentation is selected automatically from the feature-space geometry of the base classes.
-
 
 <br/>
 
